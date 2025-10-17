@@ -194,5 +194,3 @@ Modern applications require comprehensive testing strategies. This project shows
 - **Integrate testing** into your development workflow
 
 Ready to level up your testing game? Let's automate! 🎯
-
-Created with 🧉 by [@bkita](https://github.com/bkita)
