@@ -1,3 +1,4 @@
+/* eslint-disable playwright/no-standalone-expect */
 import { expect, test as setup } from '@playwright/test';
 import { Logger } from 'tslog';
 
