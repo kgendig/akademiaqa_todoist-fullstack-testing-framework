@@ -37,7 +37,7 @@ To get started, you'll need:
 1. Clone the repo:
 
    ```bash
-   git clone https://github.com/pwtsdev/todoist-fullstack-testing-framework-base-setup.git
+   git clone https://github.com/kgendig/akademiaqa_todoist-fullstack-testing-framework-base-setup.git
    cd todoist-fullstack-testing-framework-base-setup
    ```
 
