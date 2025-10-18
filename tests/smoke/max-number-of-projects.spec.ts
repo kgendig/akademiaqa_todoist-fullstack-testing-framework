@@ -19,8 +19,10 @@ test.describe('Max number of projects on free plan', () => {
     }
   });
 
-  test('create project over limit', { tag: ['@smoke', '@smoke002'] }, async ({ homePage }) => {
+  test('create project over limit', { tag: ['@smoke', '@smoke002'] }, async ({ page, homePage }) => {
     const expectedHeader = 'Chcesz mieć do dyspozycji więcej projektów?';
+    // eslint-disable-next-line playwright/no-wait-for-timeout
+    await page.waitForTimeout(5_000);
 
     // Act
     await homePage.open();
